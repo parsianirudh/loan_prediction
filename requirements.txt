@@ -1,0 +1,17 @@
+joblib
+numpy
+Pillow
+requests
+streamlit
+streamlit_lottie
+scikit-learn
+scipy
+seaborn
+pandas
+pickleshare
+matplotlib
+matplotlib-inline==0.1.6
+scikit-learn>=1.2.0
+setuptools
+wheel
+python-dotenv
