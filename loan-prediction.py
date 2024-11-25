@@ -6,7 +6,7 @@ import numpy as np
 from PIL import Image
 
 image = Image.open('./img/funding.png')
-st.set_page_config(page_title='Loan Prediction', page_icon=image)
+st.set_page_config(page_title='Predictive Model for Loan Approval', page_icon=image)
 
 
 def load_lottie(url):
@@ -138,8 +138,8 @@ with st.container():
     with right_column:
 
         st.write('_For any issue contact me via:_')
-        st.info('[LinkedIn](https://www.linkedin.com/in/anurag-parsi-407377238)', icon="📩")
-        st.info('[anuragdscon@gmail.com]', icon="📩")
+        st.info('[LinkedIn](https://www.linkedin.com/in/anirudh-parsi-4517451a0/)', icon="📩")
+        st.info('[anirudhdscon@gmail.com]', icon="📩")
 
 
     with left_column:
@@ -201,7 +201,7 @@ text-align: center;
 
 </style>
 <div class="footer">
-<p>&copy; 2024 <a href="https://www.linkedin.com/in/anurag-parsi-407377238"> Anurag Parsi</a></p>
+<p>&copy; 2024 <a href="https://www.linkedin.com/in/anirudh-parsi-4517451a0/"> Anirudh Parsi</a></p>
 </div>
 """
 st.markdown(footer,unsafe_allow_html=True)
